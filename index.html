@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mobile App Prototype</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <header class="header-page">
+      <div class="container header-container">
+        <a class="logo" href="./index.html">Mobileapp</a>
+        <nav class="header-nav">
+          <ul class="header-list">
+            <li class="header-list-item">
+              <a href="./index.html" class="header-list-link">HOME</a>
+            </li>
+            <li class="header-list-item">
+              <a href="" class="header-list-link">FEATURES</a>
+            </li>
+            <li class="header-list-item">
+              <a href="" class="header-list-link">TEAM</a>
+            </li>
+            <li class="header-list-item">
+              <a href="" class="header-list-link">TESTIMONIALS</a>
+            </li>
+            <li class="header-list-item">
+              <a href="" class="header-list-link">CONTACT</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="header-burger-btn" type="button" data-menu-open>
+          <svg class="header-burger-icon" width="30" height="20">
+            <use href="./images/icons.svg#icon-Burger"></use>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="hero-page">
+        <div class="container hero-container">
+          <h1 class="hero-page-title">Introducing Mobileapp</h1>
+          <h3 class="hero-page-subtitle">Download our mobile app today!</h3>
+          <ul class="hero-page-list">
+            <li class="hero-page-item">
+              <svg class="hero-arrow-icon" width="18" height="18">
+                <use
+                  href="./images/icons.svg#icon-dashicons_arrow-right-alt2"
+                ></use>
+              </svg>
+              <p class="hero-page-text">
+                Real-time updates and notifications for timely information
+              </p>
+            </li>
+            <li class="hero-page-item">
+              <svg class="hero-arrow-icon" width="18" height="18">
+                <use
+                  href="./images/icons.svg#icon-dashicons_arrow-right-alt2"
+                ></use>
+              </svg>
+              <p class="hero-page-text">
+                Robust analytics and reporting for data-driven insights
+              </p>
+            </li>
+            <li class="hero-page-item">
+              <svg class="hero-arrow-icon" width="18" height="18">
+                <use
+                  href="./images/icons.svg#icon-dashicons_arrow-right-alt2"
+                ></use>
+              </svg>
+              <p class="hero-page-text">
+                Offline capabilities for uninterrupted use
+              </p>
+            </li>
+          </ul>
+          <button class="hero-page-btn" type="button" data-modal-open>
+            Download
+          </button>
+          <img
+            src="./images/mobile.png"
+            alt="Mobileapp"
+            width="895"
+            height="553"
+            class="hero-page-image"
+          />
+        </div>
+      </section>
+
+      <!--   <section class="feats-page">
+        <div class="container feats-container">
+          <h2 class="feats-page-title">KEY FEATURES</h2>
+          <p class="feats-page-text">
+            Get the best mobile experience with our Mobileapp. With a
+            user-friendly interface, personalized recommendations, secure
+            transactions, and real-time updates, our app offers everything you
+            need to stay connected and productive
+          </p>
+
+          <div class="feats-box">
+            <ul class="feats-page-list">
+              <li class="feats-list-item">
+                <img
+                  src="./images/07 Gear NFT (1)-min.png"
+                  alt="icon"
+                  width="28"
+                  height="28"
+                />
+                <div>
+                  <h3 class="feats-subtitle">User-Friendly Interface:</h3>
+                  <p class="feats-list-text">
+                    Intuitive and easy-to-navigate interface designed to provide
+                    a seamless mobile experience for users.
+                  </p>
+                </div>
+              </li>
+              <li class="feats-list-item">
+                <img
+                  src="./images/07 Gear NFT (1)-min.png"
+                  alt="icon"
+                  width="28"
+                  height="28"
+                />
+                <div>
+                  <h3 class="feats-subtitle">Personalized Recommendations:</h3>
+                  <p class="feats-list-text">
+                    The app provides personalized recommendations based on user
+                    preferences and behavior, allowing for more relevant content
+                    and a more engaging experience.
+                  </p>
+                </div>
+              </li>
+              <li class="feats-list-item">
+                <img
+                  src="./images/07 Gear NFT (1)-min.png"
+                  alt="icon"
+                  width="28"
+                  height="28"
+                />
+                <div>
+                  <h3 class="feats-subtitle">Real-Time Updates:</h3>
+                  <p class="feats-list-text">
+                    Users receive real-time updates and notifications to stay
+                    informed on important news and events, and to stay
+                    up-to-date with changes to the app.
+                  </p>
+                </div>
+              </li>
+            </ul>
+
+            <img src="./images/Frame 74.png" alt="A man with a phone" />
+
+            <ul class="feats-page-list-second">
+              <li class="feats-list-item-part">
+                <img
+                  src="./images/07 Gear NFT (1)-min.png"
+                  alt="icon"
+                  width="28"
+                  height="28"
+                />
+                <div>
+                  <h3 class="feats-subtitle">Integration with Other Apps:</h3>
+                  <p class="feats-list-text">
+                    The app integrates with other popular apps, making it easy
+                    for users to connect with their social media accounts, or to
+                    easily make in-app purchases using their preferred payment
+                    method.
+                  </p>
+                </div>
+              </li>
+              <li class="feats-list-item-part">
+                <img
+                  src="./images/07 Gear NFT (1)-min.png"
+                  alt="icon"
+                  width="28"
+                  height="28"
+                />
+                <div>
+                  <h3 class="feats-subtitle">Offline Capabilities:</h3>
+                  <p class="feats-list-text">
+                    The app offers offline capabilities, allowing users to
+                    access certain features and content even when they are not
+                    connected to the internet.
+                  </p>
+                </div>
+              </li>
+              <li class="feats-list-item-part">
+                <img
+                  src="./images/07 Gear NFT (1)-min.png"
+                  alt="icon"
+                  width="28"
+                  height="28"
+                />
+                <div>
+                  <h3 class="feats-subtitle">Multi-Language Support:</h3>
+                  <p class="feats-list-text">
+                    The app is designed to be accessible to users all around the
+                    world, with support for multiple languages, making it easier
+                    for people to use the app in their native language.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- <section class="video-page">
+        <div class="container video-container">
+          <div class="video-text-cont">
+            <h2 class="video-page-title">WATCH THE VIDEO</h2>
+            <p class="video-page-text">
+              Watch the video below to see our mobile app in action. With a
+              user-friendly interface, personalized recommendations, secure
+              transactions, and real-time updates, our app is available for
+              download on both Apple and Android devices and is designed to make
+              your life easier.
+            </p>
+            <ul class="video-list">
+              <li class="video-list-item">
+                <svg class="video-icon" width="32" height="36">
+                  <use href="./images/icons.svg#icon-Apple"></use>
+                </svg>
+              </li>
+              <li class="video-list-item">
+                <svg class="video-icon" width="32" height="36">
+                  <use href="./images/icons.svg#icon-Android"></use>
+                </svg>
+              </li>
+            </ul>
+          </div>
+          <div class="video-img-cont">
+            <img
+              src="./images/iPhone-min.png"
+              alt="iPhone capture"
+              width="501"
+            />
+          </div>
+        </div>
+      </section> -->
+
+      <!--   <section class="team-page">
+        <div class="container team-container">
+          <h2 class="team-page-title">OUR TEAM</h2>
+          <p class="team-page-text">
+            Our team is made up of talented and passionate individuals who are
+            committed to providing the best experience for our users. Each
+            member brings a unique set of skills and expertise to the table,
+            allowing us to work collaboratively and effectively to achieve our
+            goals.
+          </p>
+          <ul class="team-page-list">
+            <li class="team-page-list-item david">
+              <img
+                class="team-image"
+                src="./images/David Patel.jpg"
+                alt="Photo David Patel"
+                width="264"
+                height="260"
+              />
+              <h3 class="team-subtitle">David Patel</h3>
+              <p class="team-page-list-text">Managing Director</p>
+            </li>
+            <li class="team-page-list-item rachel">
+              <img
+                class="team-image"
+                src="./images/Rachel Kim.jpg"
+                alt="Photo Rachel Kim"
+                width="264"
+                height="260"
+              />
+              <h3 class="team-subtitle">Rachel Kim</h3>
+              <p class="team-page-list-text">Lead Designer</p>
+            </li>
+            <li class="team-page-list-item chen">
+              <img
+                class="team-image"
+                src="./images/Samantha Chen.jpg"
+                alt="Photo Samantha Chen"
+                width="264"
+                height="260"
+              />
+              <h3 class="team-subtitle">Samantha Chen</h3>
+              <p class="team-page-list-text">Lead Developer</p>
+            </li>
+            <li class="team-page-list-item andrew">
+              <img
+                class="team-image"
+                src="./images/Andrew Nguyen.jpg"
+                alt="Photo Andrew Nguyen"
+                width="264"
+                height="260"
+              />
+              <h3 class="team-subtitle">Andrew Nguyen</h3>
+              <p class="team-page-list-text">Sr. UI Designer</p>
+            </li>
+          </ul>
+        </div>
+      </section> -->
+
+      <!--  <section class="jon-doe-page">
+        <div class="container container-jd">
+          <h3 class="jon-doe-page-title">WHAT OUR COSTUMER’S SAY</h3>
+          <img class="jon-doe-img" src="./images/jon.png" alt="Photo Jon Doe" />
+          <h3 class="jon-doe-subtitle">Jon Doe</h3>
+          <p class="jon-doe-resume">Company Inc.</p>
+          <p class="jon-doe-text">
+            I've been using this app for a few weeks now and I have to say, I'm
+            really impressed. It's so easy to use and the personalized
+            recommendations are spot-on. Plus, the transactions are secure and
+            the updates are always timely. I would definitely recommend this app
+            to anyone looking for a better mobile experience
+          </p>
+          <img
+            class="jd-page-img-item"
+            src="./images/Group 93-min.png"
+            alt="Group 93"
+            width="76"
+          />
+        </div>
+      </section> -->
+    </main>
+
+    <!--   <footer class="footer-page">
+      <div class="container footer-container">
+        <h2 class="footer-title">CONTACT US</h2>
+        <div class="footer-contact-box">
+          <div class="footer-info">
+            <h3 class="footer-subtitle">Get in touch with us</h3>
+            <p class="footer-text">
+              Have a question or comment about our app? Get in touch with us
+              using the contact form below and our team will respond shortly.
+            </p>
+            <ul class="footer-link-list">
+              <li class="footer-link">
+                <a
+                  class="footer-link-item"
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  ><svg class="footer-icon" width="20" height="20">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="footer-link-item"
+                  href="https://x.com/"
+                  target="_blank"
+                  ><svg class="footer-icon" width="20" height="20">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="footer-link-item"
+                  href="https://ua.linkedin.com/"
+                  target="_blank"
+                >
+                  <svg class="footer-icon" width="20" height="20">
+                    <use href="./images/icons.svg#icon-cib_linkedin-in"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+            <address class="address-footer">
+              <ul class="address-footer-list">
+                <li class="address-list">
+                  <a class="address-item" href="tel:+xxxxxxxxxxxx"
+                    >+xx-xxxx-xxxx-xx</a
+                  >
+                </li>
+                <li>
+                  <a class="address-item" href="mailto:goIteens@gmail.com"
+                    >goIteens@gmail.com</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
+          <div class="footer-form">
+            <form action="" autocomplete="off">
+              <ul class="footer-list-input">
+                <li class="footer-list">
+                  <input
+                    class="footer-input"
+                    type="text"
+                    name="user-name"
+                    id="user-name"
+                    required
+                    placeholder="Name"
+                  />
+                  <label for="user-name"></label>
+                </li>
+                <li class="footer-list">
+                  <input
+                    class="footer-input"
+                    type="email"
+                    name="user-email"
+                    id="user-email"
+                    required
+                    placeholder="Email"
+                  />
+                  <label for="user-email"></label>
+                </li>
+              </ul>
+              <textarea
+                class="footer-form-text"
+                name="user-text"
+                id="user-text"
+                placeholder="Message"
+              ></textarea>
+              <label class="footer-label-text" for="user-text"></label>
+              <button class="btn-footer" type="submit">SUBMIT</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="footer-down">
+          <p class="footer-down-text">
+            © 2019 GoIteens Template. All Rights Reserved
+          </p>
+        </div>
+      </div>
+    </footer> -->
+
+    <div class="backdrop" data-modal>
+      <div class="overlay-modal">
+        <button class="overlay-close-btn" type="submit" data-modal-close>
+          <svg class="overlay-icon" width="16" height="16">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="overley-title">Download</p>
+        <div class="download-container">
+          <div class="download-free">
+            <svg class="overlay-icon-icon" width="106" height="126">
+              <use href="./images/icons.svg#icon-file-download"></use>
+            </svg>
+            <p class="download-title">Download free plan</p>
+            <ul class="download-free-list">
+              <li class="download-free-item">
+                <svg class="overlay-icon" width="14" height="14">
+                  <use href="./images/icons.svg#icon-bxs_right-arrow"></use>
+                </svg>
+                <p class="download-text">Basic functionality</p>
+              </li>
+              <li class="download-free-item">
+                <svg class="overlay-icon" width="14" height="14">
+                  <use href="./images/icons.svg#icon-bxs_right-arrow"></use>
+                </svg>
+                <p class="download-text">Limited access</p>
+              </li>
+              <li class="download-free-item">
+                <svg class="overlay-icon" width="14" height="14">
+                  <use href="./images/icons.svg#icon-bxs_right-arrow"></use>
+                </svg>
+                <p class="download-text">Community support</p>
+              </li>
+            </ul>
+          </div>
+          <div class="download-not-free">
+            <svg class="overlay-icon-icon" width="106" height="126">
+              <use href="./images/icons.svg#icon-file-download"></use>
+            </svg>
+            <p class="download-title">Download for 20$</p>
+            <ul class="download-list">
+              <li class="download-not-free-item">
+                <svg class="overlay-icon" width="14" height="14">
+                  <use href="./images/icons.svg#icon-bxs_right-arrow"></use>
+                </svg>
+                <p class="download-text">Ad-free experience</p>
+              </li>
+              <li class="download-not-free-item">
+                <svg class="overlay-icon" width="14" height="14">
+                  <use href="./images/icons.svg#icon-bxs_right-arrow"></use>
+                </svg>
+                <p class="download-text">Unlock exclusive features</p>
+              </li>
+              <li class="download-not-free-item">
+                <svg class="overlay-icon" width="14" height="14">
+                  <use href="./images/icons.svg#icon-bxs_right-arrow"></use>
+                </svg>
+                <p class="download-text">
+                  Content for the ultimate mobile experience
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="overlay-text">
+          No matter which plan you choose, we're excited to have you as part of
+          our community of mobile app users!
+        </p>
+        <div class="info-container">
+          <ul class="info-list">
+            <li class="info-list-item">
+              <svg class="overlay-icon" width="28" height="28">
+                <use href="./images/icons.svg#icon-file-text-filled"></use>
+              </svg>
+              <div class="info-list-text">
+                <p class="title-discr">App name</p>
+                <p class="overlay-discr">Mobileapp.layout</p>
+              </div>
+            </li>
+            <li class="info-list-item">
+              <svg class="overlay-icon" width="28" height="28">
+                <use href="./images/icons.svg#icon-file-zip"></use>
+              </svg>
+              <div class="info-list-text">
+                <p class="title-discr">License</p>
+                <p class="overlay-discr">Free</p>
+              </div>
+            </li>
+            <li class="info-list-item">
+              <svg class="overlay-icon" width="28" height="28">
+                <use href="./images/icons.svg#icon-user-avatar"></use>
+              </svg>
+              <div class="info-list-text">
+                <p class="title-discr">Author</p>
+                <p class="overlay-discr">Mobile Market App.com</p>
+              </div>
+            </li>
+            <li class="info-list-item">
+              <svg class="overlay-icon" width="28" height="28">
+                <use href="./images/icons.svg#icon-bxs_calendar"></use>
+              </svg>
+              <div class="info-list-text">
+                <p class="title-discr">Data</p>
+                <p class="overlay-discr">21.02.2022</p>
+              </div>
+            </li>
+          </ul>
+          <div class="decorative-line-container"></div>
+          <ul class="info-list-two">
+            <li class="info-list-item">
+              <svg class="overlay-icon" width="28" height="28">
+                <use href="./images/icons.svg#icon-eos-icons"></use>
+              </svg>
+              <div class="info-list-text">
+                <p class="title-discr">OC</p>
+                <p class="overlay-discr">Windows</p>
+              </div>
+            </li>
+            <li class="info-list-item">
+              <svg class="overlay-icon" width="28" height="28">
+                <use href="./images/icons.svg#icon-symbols_language"></use>
+              </svg>
+              <div class="info-list-text">
+                <p class="title-discr">Language</p>
+                <p class="overlay-discr">English</p>
+              </div>
+            </li>
+            <li class="info-list-item">
+              <svg class="overlay-icon" width="28" height="28">
+                <use href="./images/icons.svg#icon-healthicons_weight"></use>
+              </svg>
+              <div class="info-list-text">
+                <p class="title-discr">Size</p>
+                <p class="overlay-discr">4.16 MB</p>
+              </div>
+            </li>
+            <li class="info-list-item">
+              <svg class="overlay-icon" width="28" height="28">
+                <use href="./images/icons.svg#icon-download"></use>
+              </svg>
+              <div class="info-list-text">
+                <p class="title-discr">Downloads</p>
+                <p class="overlay-discr">964</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <button class="overlay-download-btn" type="button">Download</button>
+      </div>
+    </div>
+
+    <!--  mobile-menu -->
+    <div class="mobile-menu" data-menu>
+      <a class="mobile-menu-logo" href="./index.html">Mobileapp</a>
+      <span class="mobile-menu-close" data-menu-close
+        ><svg class="mobile-menu-close-icon" width="20" height="20">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </span>
+
+      <nav class="mobile-menu-nav">
+        <ul class="mobile-menu-list">
+          <li class="mobile-menu-list-item">
+            <a href="./index.html" class="mobile-menu-list-link linear">HOME</a>
+          </li>
+          <li class="mobile-menu-list-item">
+            <a href="" class="mobile-menu-list-link">FEATURES</a>
+          </li>
+          <li class="mobile-menu-list-item">
+            <a href="" class="mobile-menu-list-link">TEAM</a>
+          </li>
+          <li class="mobile-menu-list-item">
+            <a href="" class="mobile-menu-list-link">TESTIMONIALS</a>
+          </li>
+          <li class="mobile-menu-list-item">
+            <a href="" class="mobile-menu-list-link">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
+  </body>
+</html>
